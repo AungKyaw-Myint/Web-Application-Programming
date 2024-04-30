@@ -1,2 +1,2 @@
 # Web-Application-Programming
-Web-Application-Programming(Labs)
+Web-Application-Programming(MIU-Labs)
