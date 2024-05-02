@@ -1,0 +1,62 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 30px;
+}
+
+#title_header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    padding-left: 0;
+}
+
+li>img {
+    width: 80px;
+    height: 80px;
+}
+
+.items {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.items td {
+    text-align: center;
+}
+
+#total {
+    text-align: right;
+    border-right: none;
+}
+
+#total_amount {
+    border: none;
+}
+
+button {
+    height: 30px;
+}
+
+#order {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
