@@ -72,7 +72,8 @@ form {
     height: 20px;
     margin: 10px;
 }
-.required_field{
+
+.required_field {
     color: red;
 }
 
