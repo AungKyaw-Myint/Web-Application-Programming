@@ -1,0 +1,84 @@
+#title {
+    background-color: rgb(10, 209, 209);
+    display: flex;
+    padding-left: 10px;
+}
+
+#title_selection {
+    width: 100px;
+    height: 20px;
+    align-self: center;
+    margin-left: 20px;
+    background-color: rgb(10, 209, 209);
+    border: none;
+}
+
+.table_col {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.table_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+select {
+    width: 170px;
+}
+
+div>input {
+    margin-right: 0;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid rgb(10, 209, 209);
+    font-size: medium;
+
+}
+
+#Registeration {
+    padding: 10px;
+}
+
+#payment {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#footer {
+    background-color: rgb(149, 231, 231);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#submit {
+    background-color: rgb(10, 209, 209);
+    width: 80px;
+    height: 20px;
+}
+
+#reset {
+    background-color: rgb(10, 209, 209);
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+}
+.required_field{
+    color: red;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="lab4.css" rel="stylesheet">
+</head>
+
+<body>
+    <form action="#" method="post">
+        <div id="title">
+            <h3>Workshop Regisdivation</h3>
+            <select id="title_selection" name="title_selection">
+                <option selected>More Action</option>
+                <option>Other Action</option>
+            </select>
+        </div>
+
+        <p id="Registeration"><u>Register now while seats are avaliable!</u></p>
+
+        <div class="table_col">
+            <div>
+                <div class="table_row">
+                    <label for="fName">First Name<span class="required_field">*</span></label>
+                    <input type="text" name="fName" id="fName" required />
+                </div>
+                <div class="table_row">
+                    <label for="lName">Last Name<span class="required_field">*</span></label>
+                    <input type="text" name="lName" id="lName" required />
+                </div>
+                <div class="table_row">
+                    <label for="company">Company/Institution<span class="required_field">*</span></label>
+                    <input type="text" name="company" id="company" required />
+                </div>
+                <div class="table_row">
+                    <label for="address">Address<span class="required_field">*</span></label>
+                    <textarea name="address" id="address" required rows="6"></textarea>
+                </div>
+                <div class="table_row">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" />
+                </div>
+                <div class="table_row">
+                    <label for="region">State/Province/Region</label>
+                    <select name="region" id="region">
+                        <option>-Select-</option>
+                        <option>Iowa</option>
+                        <option>California</option>
+                        <option>New York</option>
+                        <option>Florida</option>
+                        <option>Texas</option>
+                    </select>
+                </div>
+                <div class="table_row">
+                    <label for="coundivy">Company/Institution</label>
+                    <select name="coundivy" id="coundivy">
+                        <option>-Select-</option>
+                        <option>US</option>
+                        <option>Myanmar</option>
+                        <option>Vietnam</option>
+                        <option>Korea</option>
+                        <option>Thailand</option>
+                    </select>
+                </div>
+                <div class="table_row">
+                    <label for="email">Email<span class="required_field">*</span></label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="table_row">
+                    <label for="phone">Phone Number<span class="required_field">*</span></label>
+                    <input type="text" name="phone" id="phone" />
+                </div>
+            </div>
+
+            <div>
+                <div class="table_row"><u>Lunch</u></div>
+                <div class="table_row">
+                    <label for="meal">Meal Perference</label>
+                    <select name="meal" id="meal">
+                        <option>Vegearian</option>
+                        <option>others</option>
+                    </select>
+                </div>
+                <div class="table_row"><u>Pamyment Details</u></div>
+                <div class="table_row">
+                    <label for="payment">Payment Mode</label>
+                    <div id="payment">
+                        <div><input type="checkbox" name="payment" id="payment1"><label for="payment1">Cash</label>
+                        </div>
+                        <div><input type="checkbox" name="payment" id="payment2"><label for="payment2">Cheque</label>
+                        </div>
+                        <div><input type="checkbox" name="payment" id="payment3"><label for="payment3">Demand
+                                Draft</label></div>
+                    </div>
+                </div>
+                <div class="table_row">
+                    <label for="account">DD/Cheque No.</label>
+                    <input type="text" name="account" id="account" />
+                </div>
+                <div class="table_row">
+                    <label for="bank">Drawn On(Bank Name)</label>
+                    <input type="text" name="bank" id="bank" />
+                </div>
+                <div class="table_row">
+                    <label for="payable">Payable at</label>
+                    <input type="text" name="payable" id="payable" />
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <input type="submit" name="submit" id="submit" />
+            <input type="reset" name="reset" id="reset" />
+        </div>
+    </form>
+
+    <div id="image">
+        <a
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Faungkyaw-myint.github.io%2FWeb-Application-Programming%2Flab3.html">
+            <img src="htmlchecker.png" alt="HTML Checker" width="100" height="50">
+        </a>
+        <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faungkyaw-myint.github.io%2FWeb-Application-Programming%2Flab3.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="css_checker.png" alt="CSS Checker" width="100" height="50">
+        </a>
+    </div>
+</body>
+
+</html>
