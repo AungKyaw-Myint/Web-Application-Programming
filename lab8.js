@@ -70,24 +70,23 @@ linkedlist.print(); //Expected Result: LinkedList{1,3};
 
 
 
-function Person(firstName,lastName,grade){
-    this.firstName=firstName;
-    this.lastName=lastName;
-    this.grade=grade;
+function Person(firstName, lastName, grade) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.grade = grade;
+}
+Person.prototype.inputNewGrade = function(newGrade) { this.grade.push(newGrade) }
 
-    this.inputNewGrade =(newGrade)=>{this.grade.push(newGrade)}
-
-    this.computeAverage =() =>{
-        let total=0;
-        console.log(this.grade);
-        this.grade.forEach(element => {
-            total+=element;
-        });
-        return total/this.grade.length;
-    }
+Person.prototype.computeAverage = function() {
+    let total = 0;
+    console.log(this.grade);
+    this.grade.forEach(element => {
+        total += element;
+    });
+    return total / this.grade.length;
 }
 
-const p1=new Person('Aa', 'Bb', [50,90]);
+const p1 = new Person('Aa', 'Bb', [50, 90]);
 console.log(p1.computeAverage());
 p1.inputNewGrade(40);
 console.log(p1.computeAverage());
