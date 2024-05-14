@@ -1,0 +1,15 @@
+1) nextTick & Promise (they are priority and checking ever) and then (timer -> I/O  -> poll  -> check  -> close) roundly
+
+2) start & end are first because of taking space in stack. NextTick 1 2 are sec and then Promises and timers
+
+3) timeout will between 0 and 1 and then 'immediate' output after that 'readFile...' at the 2nd round taking place poll.
+
+4) undefined
+
+5) getName is not a function
+
+6) 'Josh Edward'
+
+7) 'Josh Edward'
+
+8) firstname='John' lastname='Smith'
