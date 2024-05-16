@@ -1,0 +1,31 @@
+GET http://localhost:3000/book
+
+###
+GET http://localhost:3000/book/1
+
+
+###
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+    "title":"book1",
+    "isbn" :"isbn1",
+    "publishedDate" :"5/15/2024",
+    "author" :"abc"
+}
+
+###
+DELETE http://localhost:3000/book/1
+
+
+###
+PUT http://localhost:3000/book/1
+Content-Type: application/json
+
+{
+    "title":"book2222",
+    "isbn" :"isbn1",
+    "publishedDate" :"5/15/2024",
+    "author" :"abc"
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+
+            const btn = document.getElementById("button");
+
+            btn.onclick = function () {
+                const result = parseInt(document.getElementById("text1").value) + parseInt(document.getElementById("text2").value);
+                document.getElementById("text3").value=result;
+            }
+        };
+
+    </script>
+</head>
+
+<body>
+    <input type="number" id="text1" value=""> +
+    <input type="number" id="text2" value=""> =
+    <input type="number" id="text3">
+    <br /> <br />
+
+    <input type="button" id="button" value="Sum">
+</body>
+
+</html>
